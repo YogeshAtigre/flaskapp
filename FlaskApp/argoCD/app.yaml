@@ -9,11 +9,12 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://https://github.com/YogeshAtigre/flaskapp/FlaskApp
+    repoURL: https://github.com/YogeshAtigre/flaskapp/FlaskApp
     targetRevision: main
     path: k8s
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
+
 
